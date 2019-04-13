@@ -1,0 +1,13 @@
+.blog-format{
+    text-align: center;
+    margin-top: 100px;    
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    display: flex; 
+    justify-content: space-evenly;    
+    font-size: 35px;
+   
+}
+.style{
+    border: 1px solid;
+    padding: 10px; 
+}
