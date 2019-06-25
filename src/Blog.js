@@ -1,7 +1,7 @@
 
 import React from 'react';
 import './Blog.css'
-// import HOC from './HOC';
+import HOC from './HOC';
 
 class Blog extends React.Component {
   render() {
@@ -20,4 +20,4 @@ class Blog extends React.Component {
   }
 }
 
-export default Blog;
+export default HOC(Blog);

@@ -1,6 +1,7 @@
   import React from 'react';
   import Blog from './Blog';
-  import HOC from './HOC';
+import HOC from './HOC';
+  
 
 class Blogs extends React.Component {
     constructor(props){
@@ -29,7 +30,7 @@ class Blogs extends React.Component {
     return (
       <div className="blog-List">{
         this.state.blogList.map((blog, index) => {
-            return HOC(<Blog blog={blog} key = {index} />);
+            return <Blog blog={blog} key = {index} />;
         })}    
         
       </div>
